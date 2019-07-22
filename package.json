@@ -1,0 +1,17 @@
+{
+  "name": "07-webserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js" ,
+    "nodemon": "nodemon server.js -e js,hbs,html.css"
+  },
+  "author": "Ariel Kenji Arakaki",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.4"
+  }
+}
